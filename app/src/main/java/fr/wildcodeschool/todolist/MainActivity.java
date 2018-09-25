@@ -22,13 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         TodoAdapter adapter = new TodoAdapter(this,todos );
         listView.setAdapter(adapter);
-        // une ListView dans le layout activity_main
-        // une classe fr.wildcodeschool.todolist.Todo : attributs String description, boolean done
-        // un layout d'item_todo qui va présenter une case de la liste
-        // créer des instances de la classe fr.wildcodeschool.todolist.Todo stockées dans un tableau (ArrayList)
-
-
-        // un Adapter : de mettre en relation les données avec les items de la ListView
     }
 
 
